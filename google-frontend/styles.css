@@ -1,0 +1,56 @@
+body * {
+    font-family: Roboto, Arial;
+}
+
+nav {
+    float:right;
+    padding-top: 1rem;
+}
+
+.nav-link {
+    margin-right: 1rem;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 100%;
+}
+
+.form-group {
+    padding: 0.5rem;
+    text-align: center;
+}
+
+input {
+    height: 34px;
+    border: 1px solid black;
+}
+
+input[type="text"] {
+    height: 34px;
+    min-width: 400px;
+    font-size: 16px;
+    border-radius: 25px;
+    padding-left: 1rem;
+}
+
+input[type="submit"] {
+    height: 34px;
+    min-width: 54px;
+    font-size: 16px;
+    padding: 0rem 1rem;
+    border-radius: 5px;
+    margin: 0rem 0.5rem;
+}
+
+input[type="text"]:focus {
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 0 0 1pt grey;
+    outline: none;
+    transition: .1s;
+    box-shadow: 0 0 3pt 2pt cornflowerblue;
+}
